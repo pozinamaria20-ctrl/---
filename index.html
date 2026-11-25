@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Зелёный сезон — выставка комнатных растений</title>
+  <style>
+    body {
+      margin: 24px;
+      background: #EEF2F7;
+      font-family: Arial, sans-serif;
+      color: #172033;
+    }
+    .event-card {
+      max-width: 560px;
+      margin: 0 auto;
+      background: #FFFFFF;
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .cover {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+    .content {
+      padding: 20px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 8px;
+      background: #DC2626;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <article class="event-card">
+    <img class="cover" src="1.jpg"
+         alt="Комнатные растения в горшках с зелёной листвой и красными акцентами на выставке">
+    <div class="content">
+      <img src="event-icon.svg" width="48" height="48" alt="">
+      <h1>Зелёный сезон: выставка комнатных растений</h1>
+      <p>Знакомство с редкими видами домашней флоры, мастер-классы по уходу и обмен черенками.</p>
+      <a class="button" href="#details">Подробнее</a>
+      <p id="details">Начало в 11:00. Встречаемся в оранжерее городского ботанического центра.</p>
+    </div>
+  </article>
+</body>
+</html>
